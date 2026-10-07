@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8));
+}
+.all{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 200px ;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.image{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+span{
+ position: absolute;
+ left: -20px;
+ top: 100px;
+ color: white;
+ font-size: 80px;
+ font-weight: bold;
+ font-family: sans-serif;
+ -webkit-text-stroke: 4px black;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
