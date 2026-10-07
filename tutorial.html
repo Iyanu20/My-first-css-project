@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="background-color: rgb(8, 10, 10); font-size: 40px">Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <form action="get" style="background-color: aquamarine; font-size:20px ;" class="form">
+        <p><strong>First name</strong> <input type="text" name="Firstname" placeholder="please enter your first name" minlength="2" maxlength="15" autofocus required></p>
+        <p><strong>last name</strong><input type="text" name="Lastname" placeholder="please enter your last name" minlength="3" maxlength="12" autofocus required></p>
+        <p><strong>Email</strong><input type="email" name="email" placeholder="please enter your email" autofocus required ></p>
+        <p><strong> Password</strong><input type="password" name="password" placeholder="please enter your password" autofocus required></p>
+        <p><strong>Gender</strong><input type="radio" name="gender" value="male" > Male
+        <input type="radio" name="gender" value="female">female</p>
+        <p><strong>gender</strong><input type="radio" name="gen" value="Do not mention"> do not mention
+        <input type="radio" name="gender" value="other">Other</p>
+        <p><strong>Date of Birth</strong> <input type="datetime-local" name="Dob" autofocus required placeholder="please enter your Dob"></p>
+        <p><strong>about you</strong><textarea name="about" placeholder="please enter some information about yourself" rows="4" cols="50"></textarea></p>
+        <p><strong>about you </strong> <textarea name="about you" rows="5" cols="12" placeholder="please tell us about yourself" autofocus required></textarea></p>
+        <p><strong>upload image</strong><input type="file" name="image"></p>
+
+        <p><select name="level">
+            <option value="">select your level</option>
+            <option value="beginner">beginner</option>
+            <option value="intermediate">intermediate</option>
+            <option value="advance">advance</option>
+        </select></p>
+        <p><strong>time </strong> <input type="time" name="time" autofocus required placeholder="please input the time"></p>
+        <p> <strong> file </strong> <input type="file" name="file" placeholder required="please upload a file" auto focus required></p>
+        <p><strong>checkbox</strong><input type="checkbox" name="terms" required> I agree to the terms and conditions</p>
+        <p><strong>Reset</strong> <input type="reset" name="Reset" ></p>
+        <p><input type="submit" name="submit" value="submit"></p>
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+nav{
+    background-color:white ;
+    flex-direction:row;
+    display:flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    color: black;
+    }
+.style{
+    flex-direction: row;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+.herosection{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:brown;
+    color: beige;
+    background-image: url(/images/brownbackground.jpg);
+    height: 60vh;
+    align-items:flex-end;
+    justify-content:center
+
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

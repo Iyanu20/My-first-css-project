@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pass{
+    display: flex;
+    border: 0ch;
+}
